@@ -1,0 +1,328 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+.body {
+  max-width: 100%;
+  overflow-x: hidden;  
+}
+
+#rt{
+  height: 500px;
+  border: black px solid;
+}
+
+#profile {
+  height: 150px;
+  border: #000000 px solid;
+  margin-right: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  border: #000000 px solid;
+  text-align: center;
+}
+
+#lead {
+  padding: 50px;
+  padding-left: 70px;
+  padding-right: 0px;
+  width: 100%;
+  float: right;
+  border: #000000 px solid;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#dropd {
+  display: none;
+}
+
+#navbar {
+  background-color: #343a40;
+  color: #fff;
+}
+
+#navbar a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #f8f9fa;
+}
+
+.container1 {
+  padding: 20px;
+}
+
+.myname {
+  float: left;
+  margin-left: 232px;
+}
+  
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#showcase {
+  margin-top: 0px; 
+}
+
+.showcase-content {
+  padding-top: 0px;
+  /* border: #030303 solid 1px; */
+}
+
+.container1 ul {
+  display: flex;
+  margin-left: 750px;
+  padding-top: 15px;
+  gap: 50px;
+  list-style: none;
+}
+
+#showcase .lead {
+  width: 95%;
+  font-weight: 300;
+  font-size: large;
+}
+
+.lead span {
+  font-weight: 500;
+}
+
+#showcase {
+  background-color: #f8f9fa;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#showcase h2 {
+  color: #343a40;
+}
+
+#showcase p {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+#showcase .btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#showcase .btn:hover {
+  background-color: #0069d9;
+}
+
+#education {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+#education h2 {
+  color: #343a40;
+}
+
+#education p {
+  color: #6c757d;
+}
+
+#Skills {
+  margin-top: 20px ;
+  margin-bottom: 20px ;
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+#Skills h2 {
+  color: #343a40;
+}
+
+#Skills p {
+  color: #6c757d;
+}
+
+#Skills ul {
+  list-style: none;
+}
+
+#Skills li {
+  color: #007bff;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#Skills li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+#skills li:hover
+
+#projects {
+  margin-top: 20px ;
+  margin-bottom: 20px ;
+  background-color: white;
+  padding: 40px 0;
+}
+#projects h2 {
+  color: #343a40;
+}
+
+#projects ul{
+  list-style: disc;
+  color: #343a40;
+  padding-top: 10px;
+}
+
+#projects li{
+  font-size: 1.2rem;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+
+#projects li a{
+  color: #007bff;
+  font-weight: 400;
+}
+
+#projects li a:hover{
+  text-decoration: dotted;
+  color: #013770;
+  font-weight: 600;
+}
+
+#projects li:hover {
+  color: #ce0606;
+  list-style:square;
+  font-weight: 2000;
+}
+
+
+#projects li a:visited {
+  color: darkblue;
+}
+
+
+#contact {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+#contact h2 {
+  color: #343a40;
+}
+
+#contact p {
+  color: #6c757d;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact input,
+#contact textarea {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+#contact button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#submit {
+  color: #f8f9fa;
+}
+
+#contact button:hover {
+  background-color: #0069d9;
+}
+
+#contactcontent{
+  width: 95%;
+}
+
+footer {
+  /* border: yellow solid 1px; */
+  background-color: #343a40;
+  color: #fff;
+  padding: 25px 0;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}
+
+.footer-content ul {
+  list-style: none;
+}
+
+#container3 ul {
+  display: flex;
+  gap: 50px;
+}
+
+#lastc {
+  color: #fbfbfb77;
+}
+
+#lastc:hover {
+  color: #ecedee;
+}
+
+.credits {
+  float: left;
+  margin-left: 10px;
+  margin-right: 46%;
+}
+
+#showcase {
+  padding-top: 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: #f0f0f0;
+  border: #000000 px solid;
+}

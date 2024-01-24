@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- You only need one version of font-awesome, preferably the latest one -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- You can combine your custom stylesheets into one file -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Barath</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav id="navbar">
+        <div class="container1">
+          <h1 class="myname">Barath</h1>
+          <div id="dropd">
+            <label for="navi"></label>
+            <select id="my_select">
+              <option value="home" href="#home">Home</option>
+              <option value="education" href="#education">Education</option>
+              <option value="skills" href="#skills">Skills</option>
+              <option value="projects" href="#projects">Projects</option>
+              <option value="contact" href="#contact">Contact</option>
+            </select>
+          </div>
+          <ul>
+            <li><a href="#home" class="current">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Showcase Area -->
+    <section id="showcase">
+      <div id="rt" class="container">
+        <div class="showcase-content">
+          <div class="image">
+            <img id="profile" src="image.jpg" alt="image">
+          </div>
+          <div id="lead">
+            <h2>About Me</h2>
+            <p class="lead">
+              My name is <span>S Barath Srinivasan</span>. I have finished my Bachelor degree in <span>Electronics and Instrumentation Engineering</span> at SRM Easwari Engineering Collage. I'm also learning JAVA Full Stackdevelopment at GUVI.            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1UYP2rwK-2t-Yef6aO7FtGAuO0Ux9DUMW/view?usp=sharing" class="btn">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="education">
+      <div class="container">
+        <div class="about-content">
+          <h2>Education</h2>
+          <br>
+          <h5>Secondary</h5>
+          <p>
+              AKKV AARUNADU Matriculation Higher Secondary School <br> <span>10th Standard - 80%</span>
+          </p>
+          <h5>Higher Secondary</h5>
+          <p>
+              AKKV AARUNADU Matriculation Higher Secondary School <br> <span>Marks percentage - 57%</span>
+          </p>
+          <h5>Collage</h5>
+          <p>
+              SRM Easwari Engineering Collage <br> <span>CGPA obtained - 8.1</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="Skills">
+      <div class="container">
+        <div class="services-content">
+          <h2>Skills</h2>
+          <p>
+            I offer a wide range of services in , including:
+          </p>
+          <ul>
+            <h5>Website Development</h5>
+            <li>Java</li>
+            <li>Spring</li>
+            <h5>Database Management</h5>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <h5>Website Design</h5>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Github projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul>
+          <!-- You don't need the onclick attribute to change the link color, you can use CSS instead -->
+          <li><a target="_blank" href="https://b4rath.github.io/task-DOM-Pagination/">DOM Pagination</a></li>
+          <li><a target="_blank" href="https://b4rath.github.io/Calculator-task/">DOM Calculator</a></li>
+          <li><a target="_blank" href="https://b4rath.github.io/Mockup-Twitter/">Twitter Outline Mockup</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          If you have any questions or would like to work together, please feel free to contact me.
+        </p>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div id="container3" class="container">
+        <p class="credits">© 2024 Barath. All rights reserved.</p>
+        <ul>
+          <!-- You don't need to use different ids for each link, you can use a class instead -->
+          <li><a class="social" target="_blank" href="https://www.instagram.com/"><span class="fa fa-instagram"></span></a></li>
+          <li><a class="social" target="_blank" href="https://www.linkedin.com/in/barath-s-918896219/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a class="social" target="_blank" href="mailto:baraths11822@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+          <li><a class="social" target="_blank" href="tel:9442442444"><i class="fa-solid fa-phone"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("my_select").onchange = function() {
+        // Get the href value of the selected option
+        var href = this.options[this.selectedIndex].getAttribute("href");
+        // Go to the section with that id
+        window.location.href = href;
+      };
+    </script>
+  </body>
+</html>
